@@ -1,0 +1,24 @@
+﻿<Window x:Class="Program_1_4.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Program_1_4"
+        mc:Ignorable="d"
+        Title="Tabla'numero" Height="450" Width="800">
+
+    <Grid Background="#FFAF6363">
+
+        <Border BorderBrush="Black" BorderThickness="1" Grid.ColumnSpan="2"/>
+
+        <TextBlock HorizontalAlignment="Left" Margin="60,53,0,0" Text="Ingrese el numero" VerticalAlignment="Top" FontSize="16"/>
+        
+        <TextBox x:Name="Tabla" HorizontalAlignment="Left" Margin="215,55,0,0" Text="" VerticalAlignment="Top" Width="266" Height="20"/>
+       
+        <Button Content="Cenerar Tabla" Margin="25,127,671,53" Click="TablaButton"/>
+        
+        <ListBox x:Name="Tablas" Margin="127,131,178,53"/>
+
+    </Grid>
+
+</Window>
